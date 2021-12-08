@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block 'title' %} listar {% endblock %}
+
+{% block 'content' %}
+        <div class='row'>
+            <ul>
+            {% for i in pessoas %}
+                <li>Nome: {{i.name}}</li>
+                <li>Email: {{i.email}}</li>
+                <li>senha: {{i.senha}}</li>
+                <hr/>
+            {% endfor %}
+            </ul>
+{% endblock %}

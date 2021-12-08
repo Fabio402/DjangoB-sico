@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+}
+.container{
+    padding: 20px !important;
+    background-color: green !important;
+    height: 300px;
+}
+footer{
+    background-color: grey;
+}
